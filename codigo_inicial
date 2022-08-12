@@ -1,0 +1,42 @@
+escala_de_C = "C, D, E, F, G, A, B"
+escala_de_G = "G, A, B, C, D, E, F#"
+escala_de_D = "D, E, F#, G, A, B, C#"
+escala_de_A = "A, B, C#, D, E, F#, G#"
+escala_de_E = "E, F#, G#, A, B, C#, D#"
+escala_de_B = "B, C#, D#, E, F#, G#, A#"
+escala_de_Fsus = "F#, G#, A#, B, C#, D#, E#"
+escala_de_Csus = "C#, D#, E#, F#, G#, A#, B#"
+erro = "erro!"
+
+
+escala = input("qual escala deseja saber? ").upper()
+
+
+if escala == "C":
+        print(f"a escala de C é: {escala_de_C:}")
+
+elif escala == "G":
+        print(f"a escala de G é: {escala_de_G}")
+
+elif escala == "D":
+        print(f"a escala de D é: {escala_de_D}")
+
+elif escala == "A":
+        print(f"a escala de A é: {escala_de_A}")
+
+elif escala == "E":
+        print(f"a escala de E é: {escala_de_E}")
+
+elif escala == "B":
+        print(f"a escala de B é: {escala_de_B}")
+
+elif escala == "F#":
+        print(f"a escala de F# é: {escala_de_Fsus}")
+
+elif escala == "C#":
+        print(f"a escala de C# é: {escala_de_Csus}")
+
+else:
+        print("Opa, ocorreu um erro!")
+
+
